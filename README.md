@@ -1,9 +1,11 @@
 # Ansible-Plugin-for-FortiSIEM
-# 25.01.2024 V1.0
+# 18.03.2024 V2.0
 
-Dieses Repository enthält [1] einen Mockup-Server, der das Verhalten von FortiSIEM emuliert.
+Dieses Repository enthält [1] einen Mockup-Server, der das Verhalten einer API von FortiSIEM emuliert.
 Dabei werden [2] Beispielantworten auf dedizierte Abfragen generiert.
-Die Abfragen (query) eruiert das [3] Ansible-Plugin.
+Die Abfragen (queries) eruiert das Ansible-Plugin [3].
 Das [4] Ansible-Playbook verweist mit Angabe von "appServer"; "username"; "password" und "query" auf das Ansible Plugin um die Abfrage auszuführen.
+
+Mögliche Beispielabfragen die als "query" im Ansible Playbook verwendet werden können sind "malicious site".
 
 Das Ergebnis der Abfrage wird in results gespeichert und kann als register weiter in Playbooks verwendet werden.
