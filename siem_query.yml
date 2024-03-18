@@ -1,0 +1,9 @@
+- name: FortiSIEM Query
+  hosts: localhost
+  tasks:
+  - fortisiem_query:
+      appServer: http://localhost:8080/phoenix/rest
+      query: infoURL CONTAIN "malicious.site"
+    register: results
+  - debug:
+      var: results.results
