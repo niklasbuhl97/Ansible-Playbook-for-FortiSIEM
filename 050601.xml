@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response requestId="050601" timestamp="1702474232114">
+    <result>
+        <error code="0" />
+        <queryResult queryId="050601" start="0" totalCount="1">
+            <events>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="eventType">PH_RULE_EXCESS_COLLECTOR_CLOCK_SKEW</attribute>
+                        <attribute name="eventSeverity">9</attribute>
+                        <attribute name="phRecvTime">Wed Nov 01 00:17:30 CET 2023</attribute>
+                        <attribute name="incidentRptDevName">FSM-2000F</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="phEventCategory">1 (Incident)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="tagName" />
+                        <attribute name="eventName">Excessive Clock Skew Between Collector and Supervisor nodes</attribute>
+                        <attribute name="eventSeverityCat">HIGH</attribute>
+                        <attribute name="incidentSrc" />
+                        <attribute name="incidentTarget" />
+                        <attribute name="bizService" />
+                        <attribute name="incidentTagName" />
+                        <attribute name="phSubIncidentCategory">FortiSIEM</attribute>
+                        <attribute name="phIncidentImpacts">Internal</attribute>
+                        <attribute name="incidentRptDevStatus">2 (Approved)</attribute>
+                        <attribute name="incidentReso">1 (Open)</attribute>
+                        <attribute name="incidentDetail">&lt;![CDATA[phCustId:1, customer:Super, collectorIp:10.10.10.11, timeSkewSec:143,]]&gt;</attribute>
+                        <attribute name="incidentRptIp">10.10.10.10</attribute>
+                        <attribute name="attackTactic" />
+                        <attribute name="attackTechnique" />
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="incidentId">2929711</attribute>
+                        <attribute name="incidentStatus">3</attribute>
+                        <attribute name="incidentFirstSeen">Wed Nov 01 00:17:30 CET 2023</attribute>
+                        <attribute name="incidentLastSeen">Wed Nov 01 00:17:30 CET 2023</attribute>
+                        <attribute name="incidentViewStatus">1 (Read)</attribute>
+                        <attribute name="incidentViewUsers" />
+                        <attribute name="incidentClearedTime">Thu Nov 02 00:32:38 CET 2023</attribute>
+                        <attribute name="incidentClearedUser" />
+                        <attribute name="incidentClearedReason">Incident cleared by system because it has expired</attribute>
+                        <attribute name="incidentNotiRecipients" />
+                        <attribute name="incidentTicketId">20169171129</attribute>
+                        <attribute name="incidentTicketStatus">3 (InProgress)</attribute>
+                        <attribute name="incidentTicketUser">admin &lt;admin@admin.local&gt;</attribute>
+                        <attribute name="incidentComments" />
+                        <attribute name="incidentResoTime">87308</attribute>
+                        <attribute name="incidentExtUser" />
+                        <attribute name="incidentExtClearedTime">Thu Jan 01 01:00:00 CET 1970</attribute>
+                        <attribute name="incidentExtTicketId" />
+                        <attribute name="incidentExtTicketState" />
+                        <attribute name="incidentExtTicketType" />
+                        <attribute name="procName" />
+                        <attribute name="incidentNotiStatus" />
+                        <attribute name="incidentTitle">Excessive Clock Skew Between Collector 10.10.10.11 customer Super and Supervisor node</attribute>
+                        <attribute name="phIncidentCategory">1</attribute>
+                        <attribute name="attackTechniqueId" />
+                        <attribute name="activityName" />
+                    </attributes>
+                    <eventType>PH_RULE_EXCESS_COLLECTOR_CLOCK_SKEW</eventType>
+                    <id>0</id>
+                    <index>0</index>
+                    <nid>2929711</nid>
+                    <receiveTime>2023-11-01T00:17:30+01:00</receiveTime>
+                </event>
+            </events>
+        </queryResult>
+    </result>
+</response>

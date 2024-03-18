@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response requestId="171493" timestamp="1702475816649">
+    <result>
+        <error code="0" />
+        <queryResult queryId="171493" start="0" totalCount="11">
+            <events>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:50 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:50 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:50 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64ac9acc00" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="36" cattime="77" avscantime="0" fullreqtime="330865" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703487264</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703487264</id>
+                    <index>0</index>
+                    <nid>345510646703487264</nid>
+                    <receiveTime>2023-12-13T14:32:50+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:49 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64a8d8b000" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="92" cattime="58" avscantime="0" fullreqtime="423084" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703141532</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703141532</id>
+                    <index>1</index>
+                    <nid>345510646703141532</nid>
+                    <receiveTime>2023-12-13T14:32:49+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:49 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64a7ecf800" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="64" cattime="55" avscantime="0" fullreqtime="423709" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703141533</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703141533</id>
+                    <index>2</index>
+                    <nid>345510646703141533</nid>
+                    <receiveTime>2023-12-13T14:32:49+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:49 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64b02ba400" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="62" cattime="81" avscantime="0" fullreqtime="332030" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646702995647</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646702995647</id>
+                    <index>3</index>
+                    <nid>345510646702995647</nid>
+                    <receiveTime>2023-12-13T14:32:49+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:49 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:49 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64a9110000" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="55" cattime="79" avscantime="0" fullreqtime="326384" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703437105</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703437105</id>
+                    <index>4</index>
+                    <nid>345510646703437105</nid>
+                    <receiveTime>2023-12-13T14:32:49+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:42 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:42 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:42 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f649ca70000" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="63" cattime="61" avscantime="0" fullreqtime="389480" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646702947253</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646702947253</id>
+                    <index>5</index>
+                    <nid>345510646702947253</nid>
+                    <receiveTime>2023-12-13T14:32:42+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:42 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:42 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:42 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64a95bec00" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="86" cattime="65" avscantime="0" fullreqtime="327410" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703094164</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703094164</id>
+                    <index>6</index>
+                    <nid>345510646703094164</nid>
+                    <receiveTime>2023-12-13T14:32:42+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:42 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:42 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:42 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x2a14400" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="31" cattime="64" avscantime="0" fullreqtime="389244" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703585692</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703585692</id>
+                    <index>7</index>
+                    <nid>345510646703585692</nid>
+                    <receiveTime>2023-12-13T14:32:42+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:35 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:35 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:35 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x2ea8000" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="49" cattime="189662" avscantime="0" fullreqtime="710761" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703684059</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703684059</id>
+                    <index>8</index>
+                    <nid>345510646703684059</nid>
+                    <receiveTime>2023-12-13T14:32:35+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:35 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:35 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:35 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64ab874400" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="83" cattime="61" avscantime="0" fullreqtime="327402" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703239689</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703239689</id>
+                    <index>9</index>
+                    <nid>345510646703239689</nid>
+                    <receiveTime>2023-12-13T14:32:35+01:00</receiveTime>
+                </event>
+                <event>
+                    <custId>1</custId>
+                    <dataStr />
+                    <attributes>
+                        <attribute name="timeSkewSec">0</attribute>
+                        <attribute name="eventType">Sophos-UTM-forbidden-category-detected</attribute>
+                        <attribute name="eventRuleTrigger">1</attribute>
+                        <attribute name="eventSeverity">1</attribute>
+                        <attribute name="eventAction">1 (Deny)</attribute>
+                        <attribute name="deviceTime">Wed Dec 13 14:32:34 CET 2023</attribute>
+                        <attribute name="httpMethod">CONNECT</attribute>
+                        <attribute name="phRecvTime">Wed Dec 13 14:32:34 CET 2023</attribute>
+                        <attribute name="uriStem">/</attribute>
+                        <attribute name="relayDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="uriQuery" />
+                        <attribute name="reptDevIpAddr">192.168.45.20</attribute>
+                        <attribute name="httpStatusCode">403 (Forbidden - The server understood the request, but is refusing to fulfill it. Authorization will not help)</attribute>
+                        <attribute name="reptDevName">fw01-1</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="rawEventMsg">&lt;30&gt;2023:12:13-14:32:34 fw01-2 httpproxy[9144]: id="0060" severity="info" sys="SecureWeb" sub="http" name="web request blocked, forbidden category detected" action="block" method="CONNECT" srcip="192.168.60.89" dstip="" user="" group="" ad_domain="" statuscode="403" cached="0" profile="REF_qdCnSoBzHn" filteraction="REF_hzjilwvpJv" size="7832" request="0x7f64a1ad0c00" url="https://malicious.site/" referer="" error="" authtime="0" dnstime="0" aptptime="71" cattime="182995" avscantime="0" fullreqtime="606915" device="0" auth="0" ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" exceptions="" reason="category" category="169" reputation="malicious" categoryname="Phishing"</attribute>
+                        <attribute name="eventId">345510646703487149</attribute>
+                        <attribute name="retentionDays">90</attribute>
+                        <attribute name="phEventCategory">0 (External)</attribute>
+                        <attribute name="count">1</attribute>
+                        <attribute name="shortProcName">httpproxy</attribute>
+                        <attribute name="eventName">Sophos UTM forbidden category detected</attribute>
+                        <attribute name="eventParsedOk">1</attribute>
+                        <attribute name="httpContentType">application/octet-stream</attribute>
+                        <attribute name="procName">httpproxy</attribute>
+                        <attribute name="eventSeverityCat">LOW</attribute>
+                        <attribute name="webCategory">Phishing</attribute>
+                        <attribute name="extEventRecvProto">Syslog</attribute>
+                        <attribute name="infoURL">https://malicious.site/</attribute>
+                        <attribute name="virusAction">Move</attribute>
+                        <attribute name="srcName">HOST-192.168.60.89</attribute>
+                        <attribute name="virusQuarantStatus">Quarantined</attribute>
+                        <attribute name="type">SecureWeb</attribute>
+                        <attribute name="size">7832</attribute>
+                        <attribute name="srcIpAddr">192.168.60.89</attribute>
+                        <attribute name="destName">malicious.site</attribute>
+                        <attribute name="reptVendor">Sophos</attribute>
+                        <attribute name="reptModel">UTM</attribute>
+                        <attribute name="collectorId">1</attribute>
+                        <attribute name="fwAction">block</attribute>
+                        <attribute name="customer">Super</attribute>
+                        <attribute name="subtype">http</attribute>
+                        <attribute name="parserName">SophosUTMParserEP</attribute>
+                        <attribute name="reputation">malicious</attribute>
+                        <attribute name="errReason">category</attribute>
+                    </attributes>
+                    <eventType>Sophos-UTM-forbidden-category-detected</eventType>
+                    <id>345510646703487149</id>
+                    <index>10</index>
+                    <nid>345510646703487149</nid>
+                    <receiveTime>2023-12-13T14:32:34+01:00</receiveTime>
+                </event>
+            </events>
+        </queryResult>
+    </result>
+</response>
