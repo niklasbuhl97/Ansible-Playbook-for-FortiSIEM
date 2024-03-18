@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+################################################################################
+#
+# This program can be used under the GNU General Public License version 2
+# You can find full information here: http://www.gnu.org/licenses/gpl-2.0.html
+# Copyright (C) 2024 Egor Puzanov.
+#
+################################################################################
 
 import hashlib
 import re
@@ -8,7 +15,6 @@ class application(object):
     def __init__(self, environ, start_response):
         self.environ = environ
         self.start_response = start_response
-
 
     def __iter__(self):
         status = "200 OK"
@@ -56,15 +62,12 @@ class application(object):
         yield body.encode("utf-8")
 
     def getRequestId(self, input):
-        # Substring generieren
         query = input[input.find("<SingleEvtConstr>"):input.find("</SingleEvtConstr>")][len("<SingleEvtConstr>"):]
         hash_object = hashlib.md5()
         hash_object.update(query.encode())
         return re.sub(r"\D", "", hash_object.hexdigest())[:6]
 
-
 def main():
-    # Eintrag Maske 0.0.0.0 um auch WSL Kernel Zugang zu ermöglichen
     server = make_server("0.0.0.0", 8080, application)
     try:
         server.serve_forever()
